@@ -1,0 +1,517 @@
+@font-face {
+    font-family: 'medieval times';
+    src: url(Fontes/MedievalTimes-AL7l6.ttf) format('truetype');
+}
+
+.txt-meio{
+    color: #ffffff;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+}
+.Seçao-meio{
+    padding: 100px 0;
+    align-items: center ;
+    display: flex; 
+    background-image: url(imgs/background-inicio-howtoplay.avif);
+    background-size: cover;
+    border: solid 40px rgb(170, 4, 4);
+    border-style: groove;
+}
+
+/*GERAL*//*GERAL*//*GERAL*//*GERAL*//*GERAL*//*GERAL*/
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    text-align: left;
+    font-size: 25px;
+    color: rgb(255, 255, 240);
+    font-family: 'Macondo', cursive;
+}
+p {
+    margin: 0 20% 0 20%;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+a{
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.title, .title-center{
+    margin: 0 0 50px 0;
+    font-size: 50px;
+    color: #aa0404;
+    font-family: 'Macondo', cursive;
+    font-weight: 1200;
+}
+.title-center{  
+    text-align: center;
+
+    
+}
+.title{
+    margin-left: 10%;
+}
+img:active{
+    transform: scale(1.025);
+    transition: 0.5s;
+}
+/*GERAL*//*GERAL*//*GERAL*//*GERAL*//*GERAL*//*GERAL*/
+
+/*MENU*//*MENU*//*MENU*//*MENU*/
+.interface{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+header a, button{
+    font-family: 'Macondo', cursive;
+}
+header .logo img{
+    max-width: 50px;
+    height: auto;
+}
+header{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #333333;
+
+}
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menudesktop nav ul{
+    list-style-type: none;
+}
+header .menudesktop nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+    font-size: 20px;
+}
+header .menudesktop nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+header .ficha button{
+    width:  160px;
+    height: 55px;
+    font-size: 15px;
+    background-color: transparent;  
+    border: #fff 2px solid;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    background-image: url(imgs/Button.png);
+}
+header .menudesktop nav ul li a:hover{
+    transform: scale(1.35);
+    color: #aa0404;
+}
+header .ficha button:hover{
+    background-color: #aa0404;
+    color: #ffffff;
+    border: solid 7px #fcffe5;
+    border-radius: 15px;
+    border-style: groove;
+    font-size: 22.5px;
+}
+/*MENU*//*MENU*//*MENU*//*MENU*/
+
+/*INICIO*//*INICIO*//*INICIO*//*INICIO*//*INICIO*//*INICIO*/
+.body-inicio{
+    background-image: url(imgs/dnd-dragon-and-elf-battle-t66md29epns98cjg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Seçao-inicio{
+    display: block;
+    background-color: #fcffe5;
+    border: solid 5px #aa0404;
+    border-style: groove;
+    background-size: cover; 
+    padding: 100px 0;
+}
+.Seçao-inicio img{
+    float: right;
+    width: 500px;
+    border: solid #aa0404 5px;
+    border-style: groove;
+    border-radius: 5px;
+    margin: 0 5%; 
+}
+.txt-inicio{
+    color: #000;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+/*INICIO*//*INICIO*//*INICIO*//*INICIO*//*INICIO*//*INICIO*/
+
+/*DADOS*//*DADOS*//*DADOS*//*DADOS*//*DADOS*//*DADOS*/
+.body-dados{
+    background-image: url(imgs/Anime\ Original.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Seçao-dados{
+    background-image: url(imgs/dados3.png);
+    background-size: cover; 
+    padding: 100px 0;
+    border: solid 5px #aa0404;
+    background-color: #fcffe5;
+}
+.section-dado-meio > img{
+    width: 500px;
+    margin: 5% 0 5% 0;
+}
+.section-dado-meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Dadostxtimg{
+    align-items: center ;
+    display: flex; 
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 4px solid rgb(170, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 75px;
+    margin: 0 15% 5% 15%;
+    border-radius: 25px;
+}
+.Dadostxtimg > img{
+    width: 150px;
+    margin-bottom: 25px;
+}
+.Seçao-dados p{
+    color: #000;
+    text-align: left;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    margin: 0 50% 0 10%;
+}
+/*DADOS*//*DADOS*//*DADOS*//*DADOS*//*DADOS*//*DADOS*/
+
+/*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*/
+.body-classes{
+    background-image: url(imgs/Img2borrada.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Seçao-classe{
+    display: block;
+    background-color: #fcffe5;
+    border: solid 5px #aa0404;
+    border-style: groove;
+    background-size: cover; 
+    padding: 100px 0;
+}
+.Seçao-classe p{
+    color: #000;
+    text-align: left;
+    margin: 0 50% 0 10%;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+}
+
+.Classestxtimg img{
+    max-width: 300px;
+    margin: 50px 0 50px 50px;
+}
+
+.Classestxtimg{
+    margin: 200px 0 200px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 4px solid rgb(170, 4, 4);
+    display: flex;
+    align-items: center;
+}
+
+.Seçao-classe img{
+    width: 500px;
+    border: 4px solid rgb(170, 4, 4);
+    float: right;
+    margin: 0 5%; 
+}
+/*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*//*CLASSES*/
+
+/*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*/
+.body-raças{
+    background-image: url(imgs/Dorado3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.txt-raças{
+    color: #000;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    text-align: center;
+}
+.Img-seçao-raças{
+    width: 500px;
+    border: 4px solid rgb(170, 4, 4);
+    margin-top: 50px;
+}
+.Seçao-raças{
+    background-color: #fcffe5;
+    background-size: cover;
+    color: #ffffff;
+    padding: 100px 0;
+    border: solid 5px rgb(170, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.Raçastxtimg{
+    margin: 200px 100px 200px 100px;
+    align-items: center ;
+    display: flex; 
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 4px solid rgb(170, 4, 4);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Raçastxtimg > img{
+    max-width: 300px;
+    margin: 50px 0 50px 50px;
+}
+/*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*//*RAÇAS*/
+
+.Seçao-kallista{
+    padding: 220px 0;
+    display: flex; 
+    background-size: cover;
+    background-image: url(imgs/Kalistal.png);
+}
+.Seçao-lendas{
+    background-size: cover; 
+    padding: 100px 0;
+    border: solid 5px #413509;
+    background-color: #fcffe5;
+}
+.txt-lendas{
+    color: #000;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+    text-align: center;
+}
+.body-lendas{
+    background-image: url(imgs/Dorado3.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.marmor{
+    background-image: url(imgs/marmore.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25px;  
+}
+.display-lendas-1{
+    display: flex;
+    padding: 25px;
+    background-image: url(imgs/marmorepreto.avif);
+    gap: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item-kalista {
+    background-color: #333333;
+    width: 900px;
+    height: 300px;
+    float: left;
+}
+
+.item-roberto {
+    background-color: rgb(26, 26, 117);
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.item-aust {
+    background-color: rgb(155, 0, 0);
+    width: 800px;
+    height: 300px;
+    float: left;
+}
+
+.item-reinaldo {
+    background-color: #620b64;
+    width: 600px;
+    height: 300px;
+    float: right;
+}
+
+.item-kvothe {
+    background-color: rgb(16, 119, 134);
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.item-alguem {
+    background-color: #517905;
+    width: 1000px;
+    height: 300px;  
+    float: right;
+}
+
+.title-ficha{
+    font-family: 'medieval times';
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    padding: 200px;
+    cursor: pointer;
+}
+.moldura .title-ficha:active{
+    color: #aa0404;
+}
+.papiro{
+    background-image: url(imgs/papiro5.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    border-radius: 15px;
+    border: solid 10px #aa0404;
+    border-style: groove;
+}
+.papiro > .ficha-title{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.moldura{
+    display: block;
+    align-items: center;
+    background-color: #fcffe5;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+    margin: 100px 100px;
+    border: rgb(155, 0, 0) solid 15px;
+    border-style: groove;
+
+    
+}
+.moldura p{
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Baskervville SC';
+    font-weight: bold;
+}
+#body-ficha{
+    background-image: url(imgs/war.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+iframe{
+    border: solid 10px #aa0404;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+.Barra{
+    background-color: #aa0404;
+    height: 5px;
+    margin: 80px 10%;
+    border-radius: 5px;
+}
+.text-esquerda{
+    text-align: left;
+    margin-left: 10%;
+    
+}
+
+.moldura li{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Macondo', cursive;
+    color: #aa0404;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 5px 10%;
+}
+
+#voltar-topo {
+    background-color: #fcffe5;
+    border-radius: 20%;
+    border: 2px solid #aa0404;
+    font-size: 35px;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    right: 15px;    
+    bottom: 20px;
+  }
+
+/* Margin é no sentido horario */
+.search-container {
+    background-color: #343b4b;
+    border: 5px solid #aa0404;
+    border-style: groove;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    margin: 15px 40% 0 10%
+  }
+  
+  .search-input {
+    width: 200px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #343b4b;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    float: right;
+  }
+  
+  .fas.fa-search {
+    color: rgb(0, 0, 0);
+  }
